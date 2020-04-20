@@ -63,18 +63,6 @@
                             <type>zip</type>
                             <target>/apps/com.yakub-packages/content/install</target>
                         </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.content</artifactId>
-                            <type>zip</type>
-                            <target>/apps/com.yakub-vendor-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.config</artifactId>
-                            <type>zip</type>
-                            <target>/apps/com.yakub-vendor-packages/application/install</target>
-                        </embedded>
                     </embeddeds>
                     <subPackages>
                     </subPackages>
@@ -177,18 +165,6 @@
             <groupId>com.yakub</groupId>
             <artifactId>com.yakub.ui.content</artifactId>
             <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.content</artifactId>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.config</artifactId>
             <type>zip</type>
         </dependency>
     </dependencies>

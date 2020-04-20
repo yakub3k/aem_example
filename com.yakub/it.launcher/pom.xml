@@ -205,6 +205,7 @@
                         </executions>
                         <configuration>
                             <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+                            <argLine>--illegal-access=permit</argLine>
                             <includes>
                                 <include>${tests.to.run}</include>
                             </includes>

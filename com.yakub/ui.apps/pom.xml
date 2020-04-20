@@ -64,11 +64,6 @@
                     </repositoryStructurePackages>
                     <embeddeds>
                         <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.core</artifactId>
-                            <target>/apps/com.yakub/install</target>
-                        </embedded>
-                        <embedded>
                             <groupId>com.yakub</groupId>
                             <artifactId>com.yakub.core</artifactId>
                             <target>/apps/com.yakub/install</target>
@@ -77,14 +72,6 @@
                     <subPackages>
                     </subPackages>
                     <dependencies>
-                        <dependency>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.content</artifactId>
-                        </dependency>
-                        <dependency>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.config</artifactId>
-                        </dependency>
                     </dependencies>
                 </configuration>
             </plugin>
@@ -133,30 +120,10 @@
             <artifactId>com.yakub.core</artifactId>
             <version>${project.version}</version>
         </dependency>
-
-
-
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.core</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.yakub</groupId>
             <artifactId>com.yakub.ui.apps.structure</artifactId>
             <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.content</artifactId>
-            <type>zip</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.config</artifactId>
             <type>zip</type>
         </dependency>
         <dependency>
